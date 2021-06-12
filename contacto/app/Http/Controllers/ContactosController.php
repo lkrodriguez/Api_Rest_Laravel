@@ -47,7 +47,7 @@ class ContactosController extends Controller
         Contactos::create($input);
         return response()->json([ 
             'res' => true,
-            'message' => 'OK' 
+            'message' => 'Datos creados Exitosamente' 
         ], 200);
 
     }
